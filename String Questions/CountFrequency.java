@@ -18,7 +18,7 @@ public class CountFrequency {
 			}
 		while(!map.isEmpty()) {
 			int maxfreq=0;
-			Character maxchar=' ';
+			char maxchar=' ';
 			for(Character ch2 : map.keySet()) {
 				if(maxfreq<map.get(ch2)) {
 					maxfreq=map.get(ch2);
