@@ -2,7 +2,6 @@ package DSA;
 import java.util.*;
 public class AppearsOnce {
 	public static int appear(int n,int[]arr) {
-		Arrays.sort(arr);
 		int result=0;
 		for(int i=0;i<n;i++) {
 			result^=arr[i];
